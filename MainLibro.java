@@ -8,9 +8,9 @@ public class MainLibro {
 
         Scanner op = new Scanner(System.in);
         System.out.print("Ingresa el Titulo del libro: ");
-        a = op.next();
+        a = op.nextLine();
         System.out.print("Ingresa el nombre del Autor: ");
-        e = op.next();
+        e = op.nextLine();
         System.out.print("Ingresa el ISBN: ");
         i = op.nextInt();
         System.out.print("Ingresa El numero de paginas: ");
